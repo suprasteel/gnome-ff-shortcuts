@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Gmail
+Comment=Gmail in firefox
+Exec=gmail
+Icon=/usr/icons/google.svg
+Terminal=false
+StartupWMClass=Gmail

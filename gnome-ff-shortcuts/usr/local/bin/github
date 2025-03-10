@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a github firefox -P github --url https://github.com --class Github --name Github

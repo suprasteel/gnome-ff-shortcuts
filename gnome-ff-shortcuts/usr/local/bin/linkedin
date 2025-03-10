@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a linkedin firefox -P linkedin --url https://linkedin.com/ -no-remote --class LinkedIn --name LinkedIn

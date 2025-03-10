@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Github
+Comment=Github in firefox
+Exec=github
+Icon=/usr/icons/github.svg
+Terminal=false
+StartupWMClass=Notion

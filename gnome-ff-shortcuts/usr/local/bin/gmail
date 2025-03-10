@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a gmail firefox -P gmail --url https://gmail.google.com --class Gmail --name Gmail

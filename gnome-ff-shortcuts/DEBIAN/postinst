@@ -1,0 +1,56 @@
+#!/bin/bash
+
+firefox=$(which firefox)
+
+# Create the necessary directories
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/share/applications
+mkdir -p /usr/icons
+
+echo "Directories are ready"
+
+# List of shortcuts
+shortcuts=(
+  # "browser" # icon to define and install to be fixed
+  "chatgpt"
+  "github"
+  "gmail"
+  "linkedin"
+  "notion"
+  "spotify"
+  "whatsapp"
+  "youtube"
+)
+
+# Set the correct permissions on the .desktop files
+for app in "${shortcuts[@]}"; do
+  chmod 744 "/usr/local/share/applications/${app}.desktop"
+done
+
+# Set the correct permissions on the .desktop files
+for app in "${shortcuts[@]}"; do
+  chmod 744 "/usr/local/bin/$app"
+done
+
+echo "Applications are ready"
+
+# Set the correct permissions on the .desktop files
+for app in "${shortcuts[@]}"; do
+  $firefox --createprofile $app
+  if [ $? -eq 0 ]; then
+    echo "Firefox profile $app created."
+  else
+    # Provide some info on the profile to create
+    echo "Could not create profile for ${app}. This can be done manually with command: firefox --createprofile $app"
+  fi
+done
+
+xdg-desktop-menu forceupdate
+
+# More details for users
+echo "---"
+echo "For more privacy, add uBlock to each profile"
+# wget https://addons.mozilla.org/firefox/downloads/file/4412673/ublock_origin-1.62.0.xpi > /tmp
+echo "For forcing firefox to open links in the same window/tab for one domain:\n>about:config\nbrowser.link.open_newwindow.restriction -> 0"
+echo "---"
+

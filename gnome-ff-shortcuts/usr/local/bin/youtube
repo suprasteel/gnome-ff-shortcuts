@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a youtube firefox -P youtube --url https://youtube.com/ -no-remote --class Youtube --name Youtube

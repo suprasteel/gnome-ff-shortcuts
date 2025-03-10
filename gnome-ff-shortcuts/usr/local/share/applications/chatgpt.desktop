@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Chatgpt
+Comment=ChatGpt in firefox
+Exec=chatgpt
+Icon=/usr/icons/chatgpt.svg
+Terminal=false
+StartupWMClass=Chatgpt

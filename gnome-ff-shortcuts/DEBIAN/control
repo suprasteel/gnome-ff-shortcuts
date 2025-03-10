@@ -1,0 +1,8 @@
+Package: gnome-ff-shortcuts
+Version: 0.3
+Section: utils
+Priority: optional
+Architecture: all
+Depends: firefox
+Maintainer: Aurelien RASTEL <aurelien.rastel@gmail.com>
+Description: Web application launchers for gnome using firefox. Example: Open chatgpt, github or gmail in firefox from a dedicated icon in a dedicated workspace, isolation the web session. Note: Firefox session have to be configured accordingly

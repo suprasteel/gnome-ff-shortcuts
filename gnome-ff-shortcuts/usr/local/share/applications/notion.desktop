@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Notion
+Comment=Notion in firefox
+Exec=notion
+Icon=/usr/icons/notion.svg
+Terminal=false
+StartupWMClass=Notion

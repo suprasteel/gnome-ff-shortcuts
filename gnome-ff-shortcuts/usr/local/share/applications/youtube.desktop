@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Youtube
+Comment=Youtube in firefox
+Exec=youtube
+Icon=/usr/icons/youtube.svg
+Terminal=false
+StartupWMClass=Youtube

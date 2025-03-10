@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a chatgpt firefox -P chatgpt --url https://chatgpt.com/ -no-remote --class Chatgpt --name Chatgpt

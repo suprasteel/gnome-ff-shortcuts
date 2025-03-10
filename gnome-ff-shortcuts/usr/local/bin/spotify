@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a spotify firefox -P spotify --url https://open.spotify.com/ --class Spotify --name Spotify

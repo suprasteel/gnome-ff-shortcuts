@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a whatsapp firefox -P whatsapp --url https://web.whatsapp.com/ -no-remote --class WhatsApp --name WhatsApp
+# about:config > browser.link.open_newwindow.restriction 0 (always open the same link in the existing window/tab, dont create a new tab)

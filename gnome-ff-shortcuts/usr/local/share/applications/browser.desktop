@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Browser
+Comment=firefox
+Exec=browser
+Icon=/usr/icons/firefox.svg
+Terminal=false
+StartupWMClass=Browser

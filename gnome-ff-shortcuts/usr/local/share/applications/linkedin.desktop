@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LinkedIn
+Comment=LinkedIn in firefox
+Exec=linkedin
+Icon=/usr/icons/linkedin.svg
+Terminal=false
+StartupWMClass=LinkedIn

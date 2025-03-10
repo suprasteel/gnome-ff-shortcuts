@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=WhatsApp
+Comment=WhatsApp in firefox
+Exec=whatsapp
+Icon=/usr/icons/whatsapp.svg
+Terminal=false
+
+StartupWMClass=WhatsApp

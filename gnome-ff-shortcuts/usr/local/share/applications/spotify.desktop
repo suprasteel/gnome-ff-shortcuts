@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Spotify
+Comment=Spotify in firefox
+Exec=spotify
+Icon=/usr/icons/spotify.svg
+Terminal=false
+StartupWMClass=Spotify
