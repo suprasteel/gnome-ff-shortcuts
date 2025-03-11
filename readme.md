@@ -1,6 +1,6 @@
 # Web App Shortcuts for Firefox - .deb Package
 
-This repository provides desktop shortcuts for web apps using Firefox. It generates a .deb package that installs web apps as applications, complete with desktop files, icons, and a launcher. The shortcuts open the corresponding web apps in Firefox with a custom user profile.
+This repository provides desktop shortcuts for web apps using Firefox. It generates a .deb package that installs web apps as applications with desktop files, icons, and a launcher. The shortcuts open the corresponding web apps in Firefox with a custom user profile (profile to be added manually).
 
 Note that this .deb assumes wayland as WM.
 
