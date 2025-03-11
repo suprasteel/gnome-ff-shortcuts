@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+export MOZ_ENABLE_WAYLAND=1
+exec -a mistral firefox -P mistral --url https://chat.mistral.ai/chat -no-remote --class Mistral --name Mistral

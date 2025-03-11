@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Mistral
+Comment=mistral
+Exec=mistral
+Icon=/usr/icons/mistral.svg
+Terminal=false
+StartupWMClass=Mistral
